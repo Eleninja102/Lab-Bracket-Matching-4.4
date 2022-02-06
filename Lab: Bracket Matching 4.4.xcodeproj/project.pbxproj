@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1DAB9CB027AF34C200FB5DCD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB9CAF27AF34C200FB5DCD /* main.cpp */; };
+		1DAB9CB727AF352600FB5DCD /* BracketTesting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB9CB627AF352600FB5DCD /* BracketTesting.cpp */; };
+		1DAB9CBA27AF355900FB5DCD /* BracketCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DAB9CB827AF355900FB5DCD /* BracketCheck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		1DAB9CAC27AF34C200FB5DCD /* Lab: Bracket Matching 4.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab: Bracket Matching 4.4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DAB9CAF27AF34C200FB5DCD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DAB9CB627AF352600FB5DCD /* BracketTesting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BracketTesting.cpp; sourceTree = "<group>"; };
+		1DAB9CB827AF355900FB5DCD /* BracketCheck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BracketCheck.cpp; sourceTree = "<group>"; };
+		1DAB9CB927AF355900FB5DCD /* BracketCheck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BracketCheck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				1DAB9CAF27AF34C200FB5DCD /* main.cpp */,
+				1DAB9CB627AF352600FB5DCD /* BracketTesting.cpp */,
+				1DAB9CB827AF355900FB5DCD /* BracketCheck.cpp */,
+				1DAB9CB927AF355900FB5DCD /* BracketCheck.hpp */,
 			);
 			path = "Lab: Bracket Matching 4.4";
 			sourceTree = "<group>";
@@ -120,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DAB9CB027AF34C200FB5DCD /* main.cpp in Sources */,
+				1DAB9CB727AF352600FB5DCD /* BracketTesting.cpp in Sources */,
+				1DAB9CBA27AF355900FB5DCD /* BracketCheck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
