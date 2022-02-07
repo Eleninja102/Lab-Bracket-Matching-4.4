@@ -27,6 +27,7 @@ private:
     stack<char>s;
     bool answer;
     char z;
+    int size = 0;
 
     
     

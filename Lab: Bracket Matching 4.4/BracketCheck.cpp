@@ -14,8 +14,9 @@ BracketCheck::BracketCheck(string exp1){
 
 
 int BracketCheck::numBrackets(){
+    //int xyz = s.size();
    
-    return s.size();
+    return size;
 }
 
 bool BracketCheck::isBalanced(){
@@ -23,6 +24,7 @@ bool BracketCheck::isBalanced(){
         if(exp[i] == '[' || exp[i] == '(' || exp[i] == '{'){
             //cout << exp[i];
             s.push(exp[i]);
+            size+=1;
             continue;
         }
 

@@ -4,7 +4,7 @@
 //
 //  Created by Coleton Watt on 2/5/22.
 //
-/*
+
 #include <iostream>
 #include "BracketCheck.hpp"
 using namespace std;
@@ -15,9 +15,10 @@ int main() {
     cout << x;
     
     cout << b;
+    cout << endl;
+    cout << b.numBrackets();
     
     
     return 0;
 }
 
-*/
